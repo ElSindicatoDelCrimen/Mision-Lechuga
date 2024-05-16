@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Protocolo platano</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="news-container">
+        <header>
+            <h1>?Los minion comen plátanos?</h1>
+        </header>
+        
+        <article>
+            <h2>Corre, corre, ¿a dónde? ¡No lo se, pero corre!</h2>
+            <img src="images/pista1.jpeg" alt="Pista 1" class="news-image">
+            <img src="images/pista2.jpeg" alt="Pista 2" class="news-image">
+            <img src="images/pista3.jpeg" alt="Pista 3" class="news-image">
+            <!-- Botón para volver a la página principal -->
+            <div class="return-button">
+                <a href="index.html" class="button">Volver a la página principal</a>
+            </div>
+        </article>
+        <footer>
+            <p class="date">Fecha de publicación: 2024-05-17</p>
+            <p>Reportado por: El equipo bananero del Sindicato del Crimen</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
