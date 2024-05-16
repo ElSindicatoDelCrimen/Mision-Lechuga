@@ -1,4 +1,4 @@
-const eventTime = new Date("2024-05-16T16:30:00").getTime(); // Asegúrate de ajustar esta fecha y hora al evento
+const eventTime = new Date("2024-05-17T16:30:00").getTime(); // Asegúrate de ajustar esta fecha y hora al evento
 
 const countdownFunction = setInterval(function() {
     const now = new Date().getTime();
