@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Misión Lechuga</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <h2>Bienvenido, futuro aliado del Sindicato del Crimen</h2>
+                <p>Antes de que procedas a unirte a nuestras filas y descubrir los secretos que se ocultan tras cada conspiración, es imperativo que comprendas y aceptes los principios que rigen nuestra fraternidad de villanos. Estos términos no son negociables y están diseñados para asegurar el caos, el desorden y la perpetuación de nuestras operaciones nefastas a lo largo y ancho del globo.<br>
+                <br>¿Reconoces y aceptas que la participación en actividades subversivas y criminales conlleva riesgos personales, incluyendo, pero no limitado a, enfrentamientos con superhéroes, encarcelamiento o incluso la posibilidad de desintegración?</p>
+            <button onclick="acceptTerms()">ACEPTO LOS RIESGOS, ¡¡MUERTE!!</button>
+        </div>
+    </div>
 
+    <div class="container" style="display: none;">
+        <div class="content">
+            <header>
+                <h1>SINDICATO DEL CRÍMEN</h1>
+            </header>
+            <div id="eventSection" style="display:none;">
+                <!-- Sección que será visible solo cuando se alcance la fecha y hora programadas -->
+                <img src="images/alfred.jpg" alt="Villano en acción" style="width:100%; height:auto;">
+                <p>Hola, he logrado descifra la contraseña de acceso al CHAT VILLANO en el que LEX desvela la ubicación de la LECHUGA 💣. Espero que te sirva, suerte y desactívala o de lo contrario todos seréis papilla.</p>
+                <p>¡El destino de la ciudad está en vuestras manos!</p>
+                <p>La clave es: bySAL215li112112AR</p>
+                <p>Att: Alfred</p>
+            </div>
+            <h2>Tiempo restante para el gran TIC TAC BOOM</h2>
+            <div id="countdown"></div>
+            <section id="villain-news">
+                <h2>Últimas noticias</h2>
+                <div class="crime-news">
+                    <article>
+                        <h3><a href="noticia1.html">Los paquetehéroes llegan a la ciudad</a></h3>
+                        <p>El alcalde busca al mejor superhéroe, ¿solo uno? ¿no hay más fondos? ¿es un corrupto?</p>
+                    </article>
+                    <article>
+                        <h3><a href="noticia2.html">Entrevista a Lex Luthor</a></h3>
+                        <p>¿Para gustos los colores? Y una mierda. Lex luthor miente al DailyPlanet y no solo odia el rojo</p>
+                    </article>
+                    <article>
+                        <h3><a href="notica1.html">¿Por qué los superhéroes comen PAN?</a></h3>
+                        <p>Para panpan para panpan para panpan para panpanpan</p>
+                    </article>
+                </div>
+            </section>
+            <h2>ACCESO AL CHAT VILLANO</h2>
+            <form id="secretForm">
+                <input type="password" id="password" placeholder="Introduce la contraseña de acceso">
+                <button type="button" onclick="checkPassword()">Acceder</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
