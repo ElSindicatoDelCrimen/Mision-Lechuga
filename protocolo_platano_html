@@ -2,22 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Protocolo platano</title>
+    <title>protocolo platano</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div class="news-container">
         <header>
-            <h1>?Los minion comen plátanos?</h1>
+            <h1>¿los minion comen plátanos?</h1>
         </header>
-        
         <article>
-            <h2>Corre, corre, ¿a dónde? ¡No lo se, pero corre!</h2>
-            <img src="images/pista1.jpeg" alt="Pista 1" class="news-image">
-            <img src="images/pista2.jpeg" alt="Pista 2" class="news-image">
-            <img src="images/pista3.jpeg" alt="Pista 3" class="news-image">
-            <!-- Botón para volver a la página principal -->
+            <p>el cifrado Cesar platanero consinte en asignar a cada letra un número, por ejemplo a la A el 1, a la B el 2.</p>
+            <h2>informe secreto sobre los minións A=2</h2>
+            <p>los minions son pequeños y traviesos, conocidos por su color amarillo y su capacidad para meterse en problemas. se les ha observado en varias ocasiones, siguiendo a los villanos más notorios del mundo. su lenguaje peculiar y su comportamiento excéntrico los hacen únicos.</p>
+            <h2>Características principales</h2>
+            <li>físico: los minions son generalmente de forma cilíndrica, con un solo ojo o dos, dependiendo del individuo. son resistentes y pueden soportar caídas y golpes que dejarían a otros incapacitados.</li>
+            <li>vestimenta: su uniforme habitual incluye un mono azul con el logo de su organización y gafas protectoras. algunos minions llevan guantes y zapatos negros.</li>
+            <li>comportamiento: son extremadamente leales a su líder y seguirán cualquier orden sin cuestionar. son ingeniosos y pueden improvisar soluciones rápidas a problemas inesperados. sin embargo, también son propensos a causar caos y desorden.</li>
+            <h2>Historia y Origen</h2>
+            <p>La creación de los Minions se remonta a millones de años atrás. Su propósito inicial era servir al villano más malvado que pudieran encontrar. Desde entonces, han pasado de un maestro a otro, siempre en busca de nuevas aventuras. En el año 2015, se estrenó una película que detallaba su historia y sus travesuras. Su fama ha crecido exponencialmente desde entonces, apareciendo en múltiples secuelas y spin-offs. En el 2021, se reportó un incremento en su popularidad debido a su aparición en diversas campañas publicitarias y colaboraciones con otras franquicias.</p>
+            <h2>Relevancia cultural</h2>
+            <p>los minions han tenido un impacto significativo en la cultura popular. su imagen se utiliza en una amplia gama de productos, desde juguetes hasta ropa. son particularmente populares entre los niños, aunque también tienen un considerable seguimiento entre los adultos. en conclusión, los minions son más que simples personajes de animación; son un fenómeno global que continúa evolucionando y capturando la imaginación de las personas en todo el mundo.</p>
             <div class="return-button">
                 <a href="index.html" class="button">Volver a la página principal</a>
             </div>
