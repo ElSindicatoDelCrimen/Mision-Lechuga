@@ -1,4 +1,4 @@
-const eventTime = new Date("2024-05-04T20:00:00").getTime(); // Asegúrate de ajustar esta fecha y hora al evento
+const eventTime = new Date("2024-05-16T16:30:00").getTime(); // Asegúrate de ajustar esta fecha y hora al evento
 
 const countdownFunction = setInterval(function() {
     const now = new Date().getTime();
@@ -42,7 +42,7 @@ window.onload = function() {
 
 // Funcion para que se vea la foto del cole, minutos antes de que acabe el juego.
 document.addEventListener('DOMContentLoaded', function() {
-    var eventDate = new Date('2024-05-04T19:00:00'); // Establece la fecha y hora del evento
+    var eventDate = new Date('2024-05-17T19:00:00'); // Establece la fecha y hora del evento
     var currentDate = new Date(); // Obtiene la fecha y hora actual
 
     if (currentDate >= eventDate) {
