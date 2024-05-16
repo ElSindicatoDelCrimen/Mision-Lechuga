@@ -24,7 +24,7 @@ function checkPassword() {
     if (passwordInput === secretPassword) {
         window.location.href = 'pista.html';
     } else {
-        alert("Contraseña incorrecta paqueteheroe, pringado, fuera de aquí.");
+        alert("Contraseña incorrecta estúpido tomate de pacotilla, pringado, fuera de aquí.");
     }
 }
 
