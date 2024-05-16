@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+    .chat-container {
+        width: 95%; /* Aumenta el ancho para dispositivos móviles */
+        margin: 5px auto; /* Reduce los márgenes vertical y horizontal */
+        padding: 10px; /* Adecuado para tocar en dispositivos táctiles */
+    }
+    #chatMessages li {
+        font-size: 14px; /* Asegura que el texto es legible sin ser demasiado grande */
+    }
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black; /* Fondo negro para todo el cuerpo de la página */
+}
+
+.chat-container {
+    width: 100%;
+    height: 100%; /* Ocupa toda la ventana */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no afecte las dimensiones definidas */
+    overflow-y: auto; /* Permite desplazamiento vertical si el contenido excede el tamaño de la ventana */
+    background-color: black; /* Fondo negro para el contenedor del chat */
+    color: white; /* Texto en color blanco para contraste */
+}
+
+#chatMessages p {
+    text-align: justify; /* Justifica el texto del chat */
+    margin: 10px 0; /* Espaciado entre mensajes */
+}
+
+#chatMessages span {
+    font-weight: bold; /* Hace que los nombres sean más destacados */
+}
+
+#chatMessages li {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+strong {
+    color: #f55;
+}
+
+/* Estilos específicos para los nombres de los personajes */
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.magenta { color: #FF00FF; } /* Harley Quinn */
+.orange { color: orange; } /* Deathstroke */
+.gray { color: gray; } /* Brainiac */

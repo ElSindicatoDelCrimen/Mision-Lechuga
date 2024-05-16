@@ -1,0 +1,161 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url('lex-luthor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container, .news-container {
+    width: 100%;
+    max-width: 800px; /* Asegura un máximo razonable para la anchura */
+    height: auto; /* Permite que el contenedor crezca con el contenido */
+    overflow: auto; /* Permite desplazamiento si el contenido es demasiado grande */
+    padding: 20px 30px; /* Aumenta el padding si es necesario */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    position: relative; /* Asegúrate de que no esté fijado de manera que corte el contenido */
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.news-container p, li {
+    text-align: justify; /* Justifica el texto */
+    text-justify: inter-word; /* Ajusta la justificación para mejorar el espaciado */
+    hyphens: auto; /* Permite la división de palabras al final de las líneas */
+}
+
+header h1, h2 {
+    color: #ff0000;
+}
+
+#countdown {
+    font-size: 3em; /* Estaba a 1.5em */
+    margin: 20px 0;
+}
+
+#villain-news h2, .crime-news article h3 {
+    color: #dd3333;
+}
+
+.crime-news {
+    text-align: left;
+}
+
+.crime-news article {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid red;
+}
+
+.crime-news a {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+.crime-news a:hover {
+    text-decoration: underline;
+}
+
+input[type="password"], button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25em;
+    padding: 15px 30px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.modal-content h2 {
+    color: #ff0000;
+}
+
+.modal-content p {
+    color: #212121;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    object-fit: cover;
+    display: block;
+    max-width: 60%;
+}
+
+#eventSection {
+    display: none;
+    text-align: center;
+    background-color: #FAFAF4;
+    color: black;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    body, .container, .news-container {
+        padding: 10px;
+    }
+
+    header, .content {
+        width: 100%;
+    }
+
+    .modal-content, .news-container {
+        width: 95%;
+        padding: 15px;
+    }
+}
